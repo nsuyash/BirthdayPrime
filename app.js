@@ -28,7 +28,7 @@ function clickEventListener() {
         var outputTxtY = ` Hey! ${inputName}\n DOB: ${inputData}/${inputMonth}/${inputYear}\n You are born on leap year`;
         txt_Output.innerText = outputTxtY;
     } else {
-        var outputTxtY = ` Hey! ${inputName}\n DOB: ${inputData}/${inputMonth}/${inputYear}\n You aren't born on leap year`;
+        var outputTxtN = ` Hey! ${inputName}\n DOB: ${inputData}/${inputMonth}/${inputYear}\n You aren't born on leap year`;
         txt_Output.innerText = outputTxtN;
     }
 }
