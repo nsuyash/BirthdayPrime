@@ -60,7 +60,5 @@ button{
 footer{
     background-color: var(--primary-color);
     padding: 1.5rem;
-}
-footer p{
     text-align: center;
 }
