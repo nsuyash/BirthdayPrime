@@ -13,9 +13,10 @@ body{
 nav{
     background-color: var(--primary-color);
     padding: 0.5rem;
-    font-size: x-large;
+    font-size: large;
     text-align: center;
 }
+
 
 main{
     padding: 3rem;
@@ -59,6 +60,16 @@ button{
 
 footer{
     background-color: var(--primary-color);
-    padding: 1.5rem;
+    padding: 2rem;
     text-align: center;
+}
+
+footer p{
+    padding-bottom: 0.5rem;
+    max-width: 600px;
+    margin: auto;
+}
+footer small{
+    max-width: 300px;
+    margin: auto;
 }
