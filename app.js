@@ -24,11 +24,11 @@ function clickEventListener() {
 
    
     if (isLeapYear(inputYear)) {
-         //output
-        var outputTxtY = "Hey! " + inputName + " " + inputData + "/" + inputMonth + "/" + inputYear + " is leap year";
+        //output
+        var outputTxtY = ` Hey! ${inputName}\n DOB: ${inputData}/${inputMonth}/${inputYear}\n You are born on leap year`;
         txt_Output.innerText = outputTxtY;
     } else {
-        var outputTxtN = "Hey! " + inputName + " " + inputData + "/" + inputMonth + "/" + inputYear + " is not leap year";
+        var outputTxtY = ` Hey! ${inputName}\n DOB: ${inputData}/${inputMonth}/${inputYear}\n You aren't born on leap year`;
         txt_Output.innerText = outputTxtN;
     }
 }
